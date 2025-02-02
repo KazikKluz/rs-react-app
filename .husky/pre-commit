@@ -1,1 +1,3 @@
-npm test
+npm run prepare
+npm run format:fix
+npm run lint
