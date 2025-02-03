@@ -23,10 +23,7 @@ class TopControls extends React.Component<TopControlsProps, TopControlsState> {
   };
 
   componentDidMount() {
-    const { searchTerm } = this.state;
-    if (searchTerm) {
-      this.fetchStarWarsData();
-    }
+    this.fetchStarWarsData();
   }
 
   fetchStarWarsData = async () => {
