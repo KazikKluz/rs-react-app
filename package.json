@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kazikkluz.github.io/rs-react-app"
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "prepare": "husky && chmod ug+x .husky/*",
-    "format:fix": "prettier --write .",
-    "homepage": "https://kazikkluz.github.io/rs-react-app"
+    "format:fix": "prettier --write ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.3",
