@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "prepare": "husky && chmod ug+x .husky/*",
-    "format:fix": "prettier --write ."
+    "format:fix": "prettier --write .",
+    "homepage": "https://kazikkluz.github.io/rs-react-app"
   },
   "dependencies": {
     "react": "^18.3.1",
