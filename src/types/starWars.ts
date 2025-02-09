@@ -1,3 +1,5 @@
+// starwars interfaces
+
 export interface StarWarsPerson {
   name: string;
   height: string;
